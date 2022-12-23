@@ -1,0 +1,50 @@
+[
+    {
+        "_id":1,
+        "img":"",
+        "price":30.00,
+        "name":"Office Lamp",
+    },
+    {
+        "_id":2,
+        "img":"",
+        "price":100.00,
+        "name":"Power Strip" ,
+    },
+    {
+        "_id":3,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+    {
+        "_id":4,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+    {
+        "_id":5,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+    {
+        "_id":6,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+    {
+        "_id":7,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+    {
+        "_id":8,
+        "img":"",
+        "price":"",
+        "name": ,
+    },
+]
