@@ -10,6 +10,7 @@ const Bestsellers = () => {
                
             </div>
             <div><h1 className='py-24'>jkj</h1></div>
+            
         </div>
     );
 };
