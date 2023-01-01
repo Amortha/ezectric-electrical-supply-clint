@@ -8,8 +8,8 @@ const Nevbar = () => {
     const menuItems = <>
 
         <li><Link to="/">HOME</Link></li>
+        <li><Link to="shops">SHOP</Link></li>
         <li><Link to="aboutus">ABOUT US</Link></li>
-        <li><Link to="shop">SHOP</Link></li>
         <li><Link to="page">PAGE</Link>
             <ul className="p-2  bg-blue-900">
                 <li> <Link to="blog">OUR TEM</Link></li>

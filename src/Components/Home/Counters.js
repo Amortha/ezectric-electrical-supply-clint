@@ -38,7 +38,7 @@ const Counters = () => {
                 <h1 className='font-bold text-center text-2xl text-blue-900'>About Us</h1>
                 <h1 className='font-bold text-center text-5xl text-black'>5000+ Buyers Across The World</h1>
             </div>
-            <div className='grid lg:grid-cols-3 sm:grid-cols-1  px-12 m-auto py-8' >
+            <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:px-12 m-auto py-8' >
 
                 {
                     counters.map(counter=> <Counter key={counter._id} counter={counter}></Counter>)

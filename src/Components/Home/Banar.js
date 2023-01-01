@@ -6,12 +6,12 @@ import whitepic from '../../assets/banar/white.png'
 
 const Banar = () => {
     return (
-        <section className='w-auto bg-fixed  ' style={{
+        <section className='w-auto ' style={{
             background: `url(${banar})`
         }}>
 
 
-            <div className=' grid lg:grid-cols-2 sm:grid-cols-1   lg:pl-8 justify-items-center w-full h-auto '>
+            <div className=' grid lg:grid-cols-2 sm:grid-cols-1 bg-black/80  lg:pl-8 justify-items-center w-full h-auto '>
 
                 <div className="w-auto h-3/5 text-white lg:py-24  " data-aos="fade-right"
                     data-aos-anchor="#example-anchor"

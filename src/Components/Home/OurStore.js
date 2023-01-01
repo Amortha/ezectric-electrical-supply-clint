@@ -5,9 +5,6 @@ const OurStore = () => {
     return (
         <div className='w-full h-96' >
             <div className={`w-full  h-full bg-cover  bg-[url('https://templatekit.jegtheme.com/ezectric/wp-content/uploads/sites/259/2022/04/white-lamps-are-hanging-in-the-accessories-store--e1650831036913.jpg')]`} >
-
-
-
                 <div className="bg-black/50 h-full w-full">
                     <div data-aos="zoom-in-down"
                         data-aos-duration="1000"
@@ -18,7 +15,7 @@ const OurStore = () => {
                             commodo ligula.
 
                         </p>
-                        <button className="px-4 py-2 mt-4 font-bold bg-white hover:bg-blue-900 hover:text-white">SHOP NOW</button>
+                        <button className="px-4 py-2 mt-4  font-bold bg-white hover:bg-blue-900 hover:text-white">SHOP NOW</button>
                     </div>
                 </div>
             </div>

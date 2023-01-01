@@ -21,7 +21,7 @@ const sales =[
 
 
     return (
-        <div className='grid lg:grid-cols-2 w-10/12 m-auto h-64 gap-7 my-12'>
+        <div className='grid lg:grid-cols-2 sm:grid-cols-1 w-10/12 m-auto gap-7 my-12 '>
             {
                 sales.map(sale =><Sales
                 key={sale._id}
