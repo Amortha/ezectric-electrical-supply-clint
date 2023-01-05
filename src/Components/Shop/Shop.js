@@ -3,8 +3,8 @@ import React from 'react';
 const Shop = (props) => {
     const {img,name,price} =  props.shop
     return (
-        <div className="card w-72 bg-base-100 shadow-xl  ">
-        <figure><img className='hover:-translate-y-1 hover:scale-110 hover:duration-500' src={img} alt="Shoes" /></figure>
+        <div className="card w-72 h-9/11 bg-base-100 shadow-xl  ">
+       <figure><img className='hover:-translate-y-1 hover:scale-110 hover:duration-500 w-48' src={img} alt="Shoes" /></figure>
         <div className="card-body text-center">
           <h2 className="text-2xl font-black font-bold">{name}</h2>
           <p className='text-xl text-teal-700 font-semibold'>${price}</p>

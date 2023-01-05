@@ -70,6 +70,55 @@
         "img":"https://i.ibb.co/FD9NB5G/images.jpg",
         "price":"24.00",
         "name": "Table Lamp"
+    },
+    {
+        "_id":13,
+        "img":"https://i.ibb.co/2hSN0sL/26eb6d36482b9f039c6de01b0e566998.jpg",
+        "price":"35.00",
+        "name": "Hand Mixer"
+    },
+   
+    {
+        "_id":14,
+        "img":"https://i.ibb.co/mDsr26w/images.jpg",
+        "price":"45.00",
+        "name": "Al Hutaib Electric"
+    },
+    {
+        "_id":15,
+        "img":"https://i.ibb.co/J79QJnS/Midwest-Electric-Surge-Protective-Devices-MEPSPD1-300-2.jpg",
+        "price":"41.00",
+        "name": "surge Protective Device"
+    },
+    {
+        "_id":16,
+        "img":"https://i.ibb.co/cLnzwTy/41g-Bs-RSts1-L-AC.jpg",
+        "price":"52.00",
+        "name": "kitchen Aid Hand Mixer"
+    },
+    {
+        "_id":17,
+        "img":"https://i.ibb.co/tB2mg42/brakar.jpg",
+        "price":"180.00",
+        "name": "Hagar Circuit breaker"
+    },
+    {
+        "_id":18,
+        "img":"https://i.ibb.co/JnpyG7L/images-1.jpg",
+        "price":"110.00",
+        "name": "Energy Meter"
+    },
+    {
+        "_id":19,
+        "img":"https://i.ibb.co/hyDcvVg/si30-1.jpg",
+        "price":"87.00",
+        "name": "pump Inverter"
+    },
+    {
+        "_id":20,
+        "img":"https://i.ibb.co/wr1yYp8/images-2.jpg",
+        "price":"55.00",
+        "name": "Power supplies"
     }
    
 ]

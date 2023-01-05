@@ -2,11 +2,10 @@ import React from 'react';
 
 const Sales = ({ sale }) => {
     return (
-        <div>
+        <div  data-aos="fade-down"
+        data-aos-duration="3000">
 
-            <div className=' bg-blue-900   grid grid-cols-2  rounded-lg  ' data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000">
+            <div className=' bg-blue-900   grid grid-cols-2  rounded-lg  '>
                 <div className='py-8 w-full ' >
                     <img className='w-48' src={sale.img} alt="pic" />
                 </div>

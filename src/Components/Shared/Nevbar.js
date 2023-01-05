@@ -10,9 +10,9 @@ const Nevbar = () => {
         <li><Link to="/">HOME</Link></li>
         <li><Link to="shops">SHOP</Link></li>
         <li><Link to="aboutus">ABOUT US</Link></li>
-        <li><Link to="page">PAGE</Link>
+        <li><Link>PAGE</Link>
             <ul className="p-2  bg-blue-900">
-                <li> <Link to="blog">OUR TEM</Link></li>
+                <li> <Link to="tem">OUR TEM</Link></li>
                 <li> <Link to="blog">FAQ</Link></li>
             </ul>
         </li>

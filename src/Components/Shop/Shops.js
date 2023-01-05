@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import CustomerReviews from '../Home/CustomerReviews'
 import Sale from '../Home/Sale';
 import Shop from './Shop';
+import { FaChevronRight } from "react-icons/fa";
 
 const Shops = () => {
     const [shops, setShops] = useState([]);
@@ -23,13 +24,26 @@ const Shops = () => {
     return (
         <div>
             <div className={`bg-cover bg-fixed h-80  bg-[url('https://i.ibb.co/3Cp0t4k/concept-of-electrician-tools-space-for-text-e1651085572732.jpg')]`}>
-                <div className='bg-black/70 w-full h-80'>
+                <div className='bg-black/60 w-full h-80'>
 
-                    <div className='p-10 text-center'>
-                        <h1 className='text-white text-2xl mt-24 mb-5 font-bold'>Find Your Product</h1>
-                        <input type="text" placeholder="Search" className="input input-bordered  w-full max-w-xs" value={query} onChange={searchText} />
+                    <div className='pt-16 text-center'>
+                        {/* <h1 className='text-white text-2xl mt-24 mb-5 font-bold'></h1> */}
+                        <h1 className='text-4xl font-bold text-white' >Shop</h1>
+                        <div className='flex justify-center  text-white text-2xl mt-7' >
+                          
+                          <h1 className='pr-2'>Home</h1>
+                          <FaChevronRight className='w-5 h-5 mt-2 text-amber-500'></FaChevronRight>
+                          <h1 className='pl-2 mb-6'>shop</h1>
+                        </div>
+                        <input type="text" placeholder="Find Your Product" className="input input-bordered  w-full max-w-xs" value={query} onChange={searchText} />
                     </div>
                 </div>
+            </div>
+            <div data-aos="fade-down"
+        data-aos-duration="3000">
+                <h1 className='text-blue-900 text-2xl text-center mt-8 font-semibold'>Our product</h1>
+                <h1 className='text-black text-4xl font-semibold text-center py-4'>Best Seller products <br /> <progress class="progress w-56 "></progress></h1>
+
             </div>
             <div className='grid lg:grid-cols-4 gap-4 p-11 md:grid-cols-2 sm:grid-cols-1 '>
 

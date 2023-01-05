@@ -4,13 +4,10 @@ import BanarCards from './BanarCards';
 import BestElectrical from './BestElectrical';
 import Bestsellers from './Bestsellers';
 import Counters from './Counters';
+
 import CustomerReviews from './CustomerReviews';
 import OurStore from './OurStore';
 import Sale from './Sale';
-
-
-
-
 
 
 const Home = () => {
@@ -18,7 +15,7 @@ const Home = () => {
         <div>
             <Banar></Banar>
             <BanarCards></BanarCards>
-            <Counters></Counters>
+           <Counters></Counters>
             <Bestsellers></Bestsellers>
             <BestElectrical></BestElectrical>
             <Sale></Sale>

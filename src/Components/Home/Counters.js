@@ -17,17 +17,17 @@ const Counters = () => {
     const counters =[
         {
             _id:1,
-            count :<CountUp start={0} end={789} duration={5}/>,
+            count :<CountUp start={0} end={789} duration={8}/>,
             name:'Happy Customer',
         },
         {
             _id:2,
-            count :<CountUp start={0} end={70} duration={5}/>,
+            count :<CountUp start={0} end={70} duration={8}/>,
             name:'Branch Store',
         },
         {
             _id:3,
-            count :<CountUp start={0} end={999} duration={5}/>,
+            count :<CountUp start={0} end={999} duration={8}/>,
             name:'our products',
         },
     ]
