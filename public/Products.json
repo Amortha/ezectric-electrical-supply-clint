@@ -2,125 +2,289 @@
     {
         "_id":1,
         "img":"https://i.ibb.co/q13cV8y/lamp.png",
-        "price":30.00,
         "name":"Office Lamp",
-        "doc":"iam rady"
+       "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":" 220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"55.00"
+
     },
     {
         "_id":2,
         "img":"https://i.ibb.co/DzvRMNk/power.png",
-        "price":100.00,
         "name":"Power Strip" ,
-        "doc":"iam rady"
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":" 220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"100.00"
     },
     {
         "_id":3,
         "img":"https://i.ibb.co/V9qBqn4/white-lamp.png",
-        "price":"30.00",
-        "name":"Minimalist Bulb" 
+        "name":"Minimalist Bulb" ,
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":" 220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"100.00"
     },
     {
         "_id":4,
         "img":"https://i.ibb.co/jwFcjT8/Toolbox.png",
-        "price":"50.00",
-        "name": "Toolbox"
+        "name": "Toolbox",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"80.00"
     },
     {
         "_id":5,
         "img":"https://i.ibb.co/WxHpYrp/Table-lamp2.png",
-        "price":"20.00",
-        "name": "Table Lamp Purple"
+        "name": "Table Lamp Purple",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"20.00"
+   
     },
     {
         "_id":6,
         "img":"https://i.ibb.co/4KFg8tG/Table-Lamp.png",
-        "price":"15.00",
-        "name": "Table Lamp"
+        "name": "Table Lamp",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"50.00"
     },
     {
         "_id":7,
         "img":"https://i.ibb.co/TYLtnLK/Cable.png",
-        "price":"25.00",
-        "name":"Cable"
+        "name":"Cable",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"25.00"
     },
     {
         "_id":8,
         "img":"https://i.ibb.co/qRtTRkX/Contact-socket.png",
-        "price":"55.00",
-        "name":"Contact Socket" 
+        "name":"Contact Socket" ,
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"60.00"
     },
     {
         "_id":9,
         "img":"https://i.ibb.co/HFhRdyJ/Digital-multimeter.png",
-        "price":"72.00",
-        "name": "Digital Multimeter"
+        "name": "Digital Multimeter",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"70.00"
     },
     {
         "_id":10,
         "img":"https://i.ibb.co/2PhFSns/salesection1.png",
-        "price":"24.00",
-        "name": "LED Lamp"
+        "name": "LED Lamp",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"150.00"
+   
     },
     {
         "_id":11,
         "img":"https://i.ibb.co/WxHpYrp/Table-lamp2.png",
-        "price":"24.00",
-        "name": "Table Lamp"
+        "name": "Table Lamp",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"250.00"
+  
     },
     {
         "_id":12,
         "img":"https://i.ibb.co/FD9NB5G/images.jpg",
-        "price":"24.00",
-        "name": "Table Lamp"
+        "name": "Table Lamp",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"75.00"
+   
     },
     {
         "_id":13,
         "img":"https://i.ibb.co/2hSN0sL/26eb6d36482b9f039c6de01b0e566998.jpg",
-        "price":"35.00",
-        "name": "Hand Mixer"
+        "name": "Hand Mixer",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"115.00"
+  
     },
    
     {
         "_id":14,
         "img":"https://i.ibb.co/mDsr26w/images.jpg",
-        "price":"45.00",
-        "name": "Al Hutaib Electric"
+        "name": "Al Hutaib Electric",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"55.00"
     },
     {
         "_id":15,
         "img":"https://i.ibb.co/J79QJnS/Midwest-Electric-Surge-Protective-Devices-MEPSPD1-300-2.jpg",
-        "price":"41.00",
-        "name": "surge Protective Device"
+        "name": "surge Protective Device",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"225.00"
     },
     {
         "_id":16,
         "img":"https://i.ibb.co/cLnzwTy/41g-Bs-RSts1-L-AC.jpg",
-        "price":"52.00",
-        "name": "kitchen Aid Hand Mixer"
+        "name": "kitchen Aid Hand Mixer",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"210.00"
     },
     {
         "_id":17,
         "img":"https://i.ibb.co/tB2mg42/brakar.jpg",
-        "price":"180.00",
-        "name": "Hagar Circuit breaker"
+        "name": "Hagar Circuit breaker",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"55.00"
     },
     {
         "_id":18,
         "img":"https://i.ibb.co/JnpyG7L/images-1.jpg",
-        "price":"110.00",
-        "name": "Energy Meter"
+        "name": "Energy Meter",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"95.00"
     },
     {
         "_id":19,
         "img":"https://i.ibb.co/hyDcvVg/si30-1.jpg",
-        "price":"87.00",
-        "name": "pump Inverter"
+        "name": "pump Inverter",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"105.00"
     },
     {
         "_id":20,
         "img":"https://i.ibb.co/wr1yYp8/images-2.jpg",
-        "price":"55.00",
-        "name": "Power supplies"
+        "name": "Power supplies",
+        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis.",
+        "model":"wt25468fkt",
+        "Capacity":"220v-240",
+        "power":"1400w",
+        "color":"any kinds",
+        "Guarantee":"2 years must",
+        "Warranty":"5 years",
+        "save": "90% Energy save",
+        "price":"65.00"
     }
    
 ]

@@ -9,8 +9,8 @@ const BestSeller = (props) => {
     navigate(`shop/${_id}`)
   }
   return (
-    <div className="card w-72 bg-base-100 shadow-xl  ">
-      <figure><img className='hover:-translate-y-1 hover:scale-110 hover:duration-500 w-48' src={img} alt="Shoes" /></figure>
+    <div className="card w-72 bg-base-100 shadow-xl hover:-translate-y-1 hover:scale-110 hover:duration-500 ">
+      <figure><img className=' w-48' src={img} alt="Shoes" /></figure>
       <div className="card-body text-center">
         <h2 className="text-2xl font-black font-bold">{name}</h2>
         <p className='text-xl text-teal-700 font-semibold'>${price}</p>
