@@ -31,13 +31,13 @@ const Banar = () => {
                     </div>
                 </div>
                 <div className="h-full w-11/12   bg-zinc-800 shadow-xl ml-58 ">
-               
+
                     <div className='ml-12'>
                         <div >
                             <img className='w-80  h-96' src={whitepic} alt="pic" />
-                         
+
                         </div>
-                       
+
                         <div className=" " data-aos="fade-left"
                             data-aos-anchor="#example-anchor"
                             data-aos-offset="500"
@@ -45,10 +45,10 @@ const Banar = () => {
                             <button className=" px-6 py-4  bg-white font-black font-semibold">BEST PRICE <br></br><span className='text-2xl text-cyan-600'> $ 30.00</span></button>
                         </div>
                         <div className=" mt-[-320px]" data-aos="fade-up"
-     data-aos-duration="3000">
-                                 <div className='ml-44'>
-                                 <p className='text-black text-blue-900 text-2xl font-semibold '>Office Lamp</p>
-                                 </div>
+                            data-aos-duration="3000">
+                            <div className='ml-44'>
+                                <p className='text-black text-blue-900 text-2xl font-semibold '>Office Lamp</p>
+                            </div>
                             <img className='w-72  h-92' src={lamp} alt="pic" />
 
                         </div>

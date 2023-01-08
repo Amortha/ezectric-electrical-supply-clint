@@ -3,13 +3,15 @@
         "_id":1,
         "img":"https://i.ibb.co/q13cV8y/lamp.png",
         "price":30.00,
-        "name":"Office Lamp"
+        "name":"Office Lamp",
+        "doc":"iam rady"
     },
     {
         "_id":2,
         "img":"https://i.ibb.co/DzvRMNk/power.png",
         "price":100.00,
-        "name":"Power Strip" 
+        "name":"Power Strip" ,
+        "doc":"iam rady"
     },
     {
         "_id":3,

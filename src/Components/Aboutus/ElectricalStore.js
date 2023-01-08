@@ -5,12 +5,14 @@ const ElectricalStore = () => {
     return (
         <div className='w-full h-auto grid lg:grid-cols-2  gap-24 lg:px-24 my-24 px-4'>
             <div className='w-full ' >
-                <div className='grid lg:grid-cols-2 gap-6'>
+                <div className='grid grid-cols-2   gap-6'>
                     <div className='bg-slate-200 grid place-items-center '>
                         <h1><span className='font-bold text-5xl'>10 +</span><br />
                             Years Experience</h1>
                     </div>
+                    <div>
                     <img src='https://i.ibb.co/48tFQb4/lite.jpg' alt='' />
+                    </div>
                 </div>
                 <img className='w-full h-96 mt-5' src='https://i.ibb.co/R2m5TFC/elecrician-choosing-electrical-goods-in-the-shop-3-768x513.jpg' alt='' />
             </div>

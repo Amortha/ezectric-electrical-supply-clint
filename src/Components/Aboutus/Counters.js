@@ -45,7 +45,7 @@ const Counters = () => {
         },
     ]
     return (
-        <div className={` my-10 bg-cover w-full h-auto  bg-[url('https://i.ibb.co/JQC4kV2/wires-and-connectors.jpg')]`} >
+        <div className={`my-10 bg-cover w-full h-auto  bg-[url('https://i.ibb.co/JQC4kV2/wires-and-connectors.jpg')]`} >
          
             <div className='grid lg:grid-cols-4 sm:grid-cols-2  lg:px-12 m-auto py-8 bg-black/40' >
 

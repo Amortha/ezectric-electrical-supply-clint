@@ -6,12 +6,13 @@ import { GiCheckMark } from 'react-icons/gi';
 const BestElectrical = () => {
     return (
         <div>
-            <div className='bg-gray-100 w-full h-auto  mb-10 grid lg:grid-cols-2 sm:grid-cols-1 gap-24'>
+            <div className='bg-gray-100  w-full h-auto  mb-10 grid lg:grid-cols-2 sm:grid-cols-1 px-12 gap-8'>
                 <div className='w-full '>
                     <img className='max-h-screen  h-full' src={BestElactric} alt='pic' />
                 </div>
-                <div className='w-full h-auto'>
-                    <div className='mt-12'>
+                <div className='w-full h-auto '>
+                    <div className='lg:mt-12 'data-aos="zoom-in-down"
+                        data-aos-duration="3000">
                         <h1 className='text-blue-900 font-semibold text-2xl'>Why Choose Us</h1>
                         <h1 className='text-black font-bold text-4xl py-5'>We Are Best Electrical <br />Store in Town</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer<br /> adipiscing elit. Aenean commodo ligula.</p>
@@ -35,16 +36,16 @@ const BestElectrical = () => {
                                 <GiCheckMark />
                                 <p className='pl-4'>Best Quality Product</p>
                             </div>
-                          <div className='flex mt-2'>
-                          <GiCheckMark />
-                            <p className='pl-4'>Commitment to Customers</p>
-                          </div>
+                            <div className='flex mt-2'>
+                                <GiCheckMark />
+                                <p className='pl-4'>Commitment to Customers</p>
+                            </div>
                         </div>
                     </div>
 
                     <button className="px-6 py-4 mb-10 bg-blue-800 font-bold text-white">SHOP NOW</button>
                 </div>
-                
+
             </div>
         </div>
     );

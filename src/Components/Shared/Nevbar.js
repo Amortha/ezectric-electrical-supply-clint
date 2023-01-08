@@ -12,8 +12,8 @@ const Nevbar = () => {
         <li><Link to="aboutus">ABOUT US</Link></li>
         <li><Link>PAGE</Link>
             <ul className="p-2  bg-blue-900">
-                <li> <Link to="tem">OUR TEM</Link></li>
-                <li> <Link to="blog">FAQ</Link></li>
+                <li> <Link to="team">OUR TEAM</Link></li>
+                <li> <Link to="faq">FAQ</Link></li>
             </ul>
         </li>
         <li><Link to="blog">BLOG</Link>
