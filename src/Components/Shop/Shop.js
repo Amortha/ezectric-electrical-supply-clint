@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navigate, useNavigate } from 'react-router';
 
-const Shop = (props) => {
-  const {_id, img, name, price } = props.shop
+const Shop = ({shop}) => {
+  const {_id, img, name, price } = shop
   const  navigate = useNavigate();
   const navigateToShopDetails = _id => {
     navigate(`/shop/${_id}`)

@@ -6,12 +6,17 @@ import { GiDuration } from 'react-icons/gi';
 import { useParams } from 'react-router';
 import { FaFortAwesomeAlt, FaUsps } from 'react-icons/fa';
 import { HiSave } from 'react-icons/hi';
+import BookingModal from './BookingModal';
+
 
 const ShopDetails = () => {
     const { shopId } = useParams();
+    const [orders, setOrders] = useState(null);
     const [shop, setShop] = useState([]);
+  
+
     useEffect(() => {
-        fetch('/Products.json')
+        fetch('http://localhost:5000/shops')
             .then(res => res.json())
             .then(data => setShop(data))
     }, [])
@@ -101,9 +106,10 @@ const ShopDetails = () => {
 
                     </div>
                     <div className='mt-12'>
-                    <button className='bg-blue-600 py-4 w-full text-white font-semibold text-xl hover:bg-blue-900'>Order naw</button>
+                    <label onClick={() => setOrders(shop)} className='btn bg-blue-900 w-full lowercase text-white  text-xl hover:bg-blue-600'  for="my-modal">Order Now</label>
+                   
                     </div>
-
+                    {orders && <BookingModal  orders={orders} setOrders={setOrders}></BookingModal>}
                 </div>
             </div>
         </div>

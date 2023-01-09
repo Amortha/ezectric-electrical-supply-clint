@@ -6,7 +6,7 @@ const Bestsellers = () => {
 
     useEffect(() => {
 
-        fetch('./Products.json')
+        fetch('http://localhost:5000/shops')
             .then(res => res.json())
             .then(data => setBestsellers(data))
     }, [])

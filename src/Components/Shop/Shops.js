@@ -17,7 +17,7 @@ const Shops = () => {
     }
     useEffect(() => {
 
-        fetch('./Products.json')
+        fetch('http://localhost:5000/shops')
             .then(res => res.json())
             .then(data => setShops(data))
     }, [])
