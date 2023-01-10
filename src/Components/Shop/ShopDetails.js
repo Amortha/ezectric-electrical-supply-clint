@@ -109,7 +109,7 @@ const ShopDetails = () => {
                     <label onClick={() => setOrders(shop)} className='btn bg-blue-900 w-full lowercase text-white  text-xl hover:bg-blue-600'  for="my-modal">Order Now</label>
                    
                     </div>
-                    {orders && <BookingModal  orders={orders} setOrders={setOrders}></BookingModal>}
+                    {orders && <BookingModal  orders={detailsShop} setOrders={setOrders}></BookingModal>}
                 </div>
             </div>
         </div>
