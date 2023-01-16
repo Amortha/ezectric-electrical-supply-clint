@@ -4,6 +4,7 @@ import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-fireba
 import auth from '../../firebase.init'
 import { useForm } from "react-hook-form";
 import { FcGoogle } from "react-icons/fc";
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -15,6 +16,9 @@ const Login = () => {
     error,
   ] = useSignInWithEmailAndPassword(auth);
   let signInError;
+  const navigate =useNavigate();
+  const location =useLocation();
+  let from = location.state?.from?.pathname || "/";
 
   if (loading || gLoading) {
     return <Loding></Loding>
@@ -24,8 +28,8 @@ const Login = () => {
     signInError = <p className='text-red-500'>{error?.message || gError?.message}</p>
   }
 
-  if (gUser) {
-    console.log(gUser)
+  if (user || gUser) {
+    navigate(from, { replace: true });
   }
 
   const onSubmit = data => {
@@ -92,12 +96,11 @@ const Login = () => {
               </label>
             </div>
 
-
-
-
             {signInError}
             <input className='btn text-white w-full mt-3  bg-gradient-to-r from-[#022079] to-[#00bfff]' type="submit" value="Login" />
           </form>
+          <p className='mt-4'>New to ezectric-electrical-supply ?<Link className=' text-blue-800 font-semibold' to="/signup">Create New Account</Link> </p>
+
           <div className="divider">OR</div>
           <button
             onClick={() => signInWithGoogle()}

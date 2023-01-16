@@ -45,7 +45,7 @@ const Loding = () => {
       
     return (
               <div className="py-52">
-                <div className="fixed  w-full   bg-white " />
+                <div className="fixed  w-full " />
                 <div className="flex fixed w-full justify-center h-screen">
                   <motion.div
                     style={loadingContainer}

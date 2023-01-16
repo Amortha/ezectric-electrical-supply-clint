@@ -13,6 +13,8 @@ import Team from './Components/Page/Team/Team';
 import Faq from './Components/Page/FAQ/Faq';
 import Contact from './Components/Contact/Contact';
 import ShopDetails from './Components/Shop/ShopDetails';
+import SingUp from './Components/Login/SingUp';
+import RequireAuth from './Components/Login/RequireAuth';
 
 function App() {
   return (
@@ -23,12 +25,16 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='aboutus' element={<AboutUs />} />
         <Route path='shops' element={<Shops />} />
-        <Route path='/shop/:shopId' element={<ShopDetails></ShopDetails>}/>
+        <Route path='/shop/:shopId' element={
+          <RequireAuth>
+            <ShopDetails />
+          </RequireAuth>} />
         <Route path='blog' element={<Blog />} />
         <Route path='team' element={<Team />} />
-        <Route path='faq' element={<Faq/>} />
+        <Route path='faq' element={<Faq />} />
         <Route path='contact' element={<Contact />} />
         <Route path='login' element={<Login />} />
+        <Route path='signup' element={<SingUp />} />
       </Routes>
 
       <Footer></Footer>

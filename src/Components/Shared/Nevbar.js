@@ -2,10 +2,17 @@ import React from 'react';
 
 import Logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import auth from '../../firebase.init';
+import { signOut } from 'firebase/auth';
 
 const Nevbar = () => {
+    const [user, loading, error] = useAuthState(auth);
+    const logout = () => {
+        signOut(auth);
+      };
 
-    const menuItems = <>
+   const menuItems = <>
 
         <li><Link to="/">HOME</Link></li>
         <li><Link to="shops">SHOP</Link></li>
@@ -23,7 +30,7 @@ const Nevbar = () => {
             </ul>
         </li>
         <li><Link to="contact">CONTACT</Link></li>
-        <li><Link to="login">LOGIN</Link></li>
+        <li>{ user ? <button className="btn btn-ghost" onClick={logout}>Sign Out</button>:<Link to="login">LOGIN</Link>}</li>
     </>
 
     return (

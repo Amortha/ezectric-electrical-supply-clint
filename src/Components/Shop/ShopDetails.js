@@ -24,7 +24,7 @@ const ShopDetails = () => {
     return (
         <div className='bg-white '>
 
-            <div className='mx-24  grid lg:grid-cols-2 gap-8 py-12 '>
+            <div className='lg:mx-24 mx-4 grid lg:grid-cols-2 gap-8 py-12 '>
                 <div className=''>
                     <img className='w-full h-96' src={detailsShop[0]?.img} alt='' />
                     <h1 className='font-bold text-2xl '>Description:</h1>
@@ -33,7 +33,7 @@ const ShopDetails = () => {
 
                 {/* box details */}
 
-                <div className='w-full bg-base-100 shadow-2xl px-12 py-12'>
+                <div className='w-full bg-base-100 shadow-2xl lg:px-12 px-4 py-12'>
                     <h1 className='text-2xl font-semibold'>{detailsShop[0]?.name}</h1>
                     <p className='font-semibold my-2'>Up to 90% Energy saving compared to traditional Products</p>
                     <div className="rating">
@@ -45,7 +45,7 @@ const ShopDetails = () => {
                         <p className='text-xl mx-2'>   7 Reviews</p>
                     </div>
 
-                    <div className='grid grid-cols-2 gap-6 mt-8'>
+                    <div className='grid lg:grid-cols-2 gap-6 mt-8'>
                         <div>
                             <div className='flex gap-4 '>
                                 <MdChromeReaderMode className='text-blue-800' size={35}></MdChromeReaderMode>
