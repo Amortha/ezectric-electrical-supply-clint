@@ -12,9 +12,9 @@ const Dashboard = () => {
                
 
             </div>
-            <div className="drawer-side">
-                <label htmlFor="dashboard-sidebar" className="drawer-overlay"></label>
-                <ul className="menu p-4 w-80 bg-base-100 text-base-content text-xl font-bold px-2">
+            <div className="drawer-side ">
+                <label htmlFor="dashboard-sidebar" className="drawer-overlay "></label>
+                <ul className=" menu py-12 w-52 bg-indigo-50 text-base-content text-xl font-bold px-2">
                     {/* <!-- Sidebar content here --> */}
                     <li><Link to = "/dashboard">Your Order</Link></li>
                     <li><Link to ="/dashboard/review">Your Review</Link></li>

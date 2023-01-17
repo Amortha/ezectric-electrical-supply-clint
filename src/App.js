@@ -21,7 +21,7 @@ import MyReview from './Components/Dashboard/MyReview';
 
 function App() {
   return (
-    <div className="" >
+    <div className="bg-white" >
       <Topbar></Topbar>
       <Nevbar></Nevbar>
       <Routes>
@@ -36,9 +36,9 @@ function App() {
           <RequireAuth>
             <Dashboard />
           </RequireAuth>}>
-            <Route index element={<MyOrder></MyOrder>}/>
-            <Route path='review' element={<MyReview></MyReview>}/>
-          </Route>
+          <Route index element={<MyOrder></MyOrder>} />
+          <Route path='review' element={<MyReview></MyReview>} />
+        </Route>
         <Route path='blog' element={<Blog />} />
         <Route path='team' element={<Team />} />
         <Route path='faq' element={<Faq />} />

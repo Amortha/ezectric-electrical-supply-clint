@@ -3,58 +3,54 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
 const MyOrder = () => {
-const [orders,setOrders] = useState([]);
-const [user] = useAuthState(auth);
+    const [orders, setOrders] = useState([]);
+    const [user] = useAuthState(auth);
 
 
-useEffect(() =>{
-    if(user){
-        fetch(`http://localhost:5000/booking?customerEmail=${user.email}`)
-        .then(res => res.json())
-        .then(data =>setOrders(data)); 
-       
-    }
-},[user])
+    useEffect(() => {
+        if (user) {
+            fetch(`http://localhost:5000/booking?customerEmail=${user.email}`)
+                .then(res => res.json())
+                .then(data => setOrders(data));
+
+        }
+    }, [user])
 
     return (
         <div className='bg-white'>
-          <h2>My Order: {orders.length} </h2>  
-          <div className="overflow-x-auto">
-  <table className="table w-full">
-  
-    <thead>
-      <tr>
-        <th></th>
-        <th>Name</th>
-        <th>Job</th>
-        <th>Favorite Color</th>
-      </tr>
-    </thead>
-    <tbody>
-     
-      <tr>
-        <th>1</th>
-        <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
-        <td>Blue</td>
-      </tr>
-      
-      <tr>
-        <th>2</th>
-        <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
-        <td>Purple</td>
-      </tr>
-     
-      <tr>
-        <th>3</th>
-        <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
-        <td>Red</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+            <div className="overflow-x-auto">
+                <table className="table w-full">
+
+                    <thead >
+                        <tr >
+                            <th className='font-bold text-sm'>SL no</th>
+                            <th className='font-bold text-sm'>Product Name</th>
+                            <th className='font-bold text-sm' >Your Name</th>
+                            <th className='font-bold text-sm'>Your Location</th>
+                            <th className='font-bold text-sm'>Quantity</th>
+                            <th className='font-bold text-sm '>Phone Number</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {
+                            orders.map((o, index) => <tr>
+                                <th className='font-bold'>{index + 1}</th>
+                                <td>{o.product}</td>
+                                <td>{o.customerName}</td>
+                                <td>{o.address}</td>
+                                <td>{o.quantity}</td>
+                                <td>{o.phone}</td>
+                            </tr>)
+                        }
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
         </div>
     );
 };
