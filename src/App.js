@@ -1,5 +1,3 @@
-
-import './App.css';
 import Nevbar from './Components/Shared/Nevbar';
 import { Route, Routes } from 'react-router';
 import Home from './Components/Home/Home';
@@ -15,10 +13,15 @@ import Contact from './Components/Contact/Contact';
 import ShopDetails from './Components/Shop/ShopDetails';
 import SingUp from './Components/Login/SingUp';
 import RequireAuth from './Components/Login/RequireAuth';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import Dashboard from './Components/Dashboard/Dashboard';
+import MyOrder from './Components/Dashboard/MyOrder';
+import MyReview from './Components/Dashboard/MyReview';
 
 function App() {
   return (
-    <div >
+    <div className="" >
       <Topbar></Topbar>
       <Nevbar></Nevbar>
       <Routes>
@@ -29,6 +32,13 @@ function App() {
           <RequireAuth>
             <ShopDetails />
           </RequireAuth>} />
+        <Route path='dashboard' element={
+          <RequireAuth>
+            <Dashboard />
+          </RequireAuth>}>
+            <Route index element={<MyOrder></MyOrder>}/>
+            <Route path='review' element={<MyReview></MyReview>}/>
+          </Route>
         <Route path='blog' element={<Blog />} />
         <Route path='team' element={<Team />} />
         <Route path='faq' element={<Faq />} />
@@ -36,7 +46,7 @@ function App() {
         <Route path='login' element={<Login />} />
         <Route path='signup' element={<SingUp />} />
       </Routes>
-
+      <ToastContainer />
       <Footer></Footer>
     </div>
   );

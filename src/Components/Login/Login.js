@@ -39,10 +39,10 @@ const Login = () => {
   return (
     <div className={`w-full bg-cover h-auto bg-[url('https://i.ibb.co/kM3ttgx/istockphoto-1323143709-612x612.jpg')]`}>
       <div className='w-3/5 grid lg:grid-cols-2  lg:mx-auto shadow-7xl card-body '>
-        <div className=' w-80 bg-gradient-to-r from-[#022079] to-[#00bfff] '>
+        <div className='hidden  lg:flex w-80 bg-gradient-to-r from-[#022079] to-[#00bfff] '>
           <img className=' lg:mx-auto ' src='https://i.ibb.co/BtvStn5/gadgets.png' alt='' />
         </div>
-        <div className=''>
+        <div className='mx-12 lg:mx-0'>
           <h2 className='text-center text-2xl font-bold text-blue-900'>Login</h2>
           <form onSubmit={handleSubmit(onSubmit)}>
 
@@ -52,7 +52,7 @@ const Login = () => {
               </label>
               <input type="email"
                 placeholder="your Email"
-                className="input input-bordered w-full"
+                className="input input-bordered  max-w-full"
                 {...register("email", {
                   required: {
                     value: true,
@@ -77,7 +77,7 @@ const Login = () => {
               <input
                 type="password"
                 placeholder="Password"
-                className="input input-bordered w-full "
+                className="input input-bordered max-w-full "
                 {...register("password", {
                   required: {
                     value: true,
