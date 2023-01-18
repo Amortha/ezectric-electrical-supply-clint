@@ -7,9 +7,10 @@ import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 
 const Nevbar = () => {
-    const [user, loading, error] = useAuthState(auth);
+    const [user] = useAuthState(auth);
     const logout = () => {
         signOut(auth);
+        localStorage.removeItem('accessToken');
     };
 
     const menuItems = <>
