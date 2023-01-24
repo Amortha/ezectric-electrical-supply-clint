@@ -1,25 +1,53 @@
+// import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 
 const MyOrder = () => {
     const [orders, setOrders] = useState([]);
+
     const [user] = useAuthState(auth);
+
 
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/booking?customerEmail=${user.email}`,{
-                method:'GeT',
-                headers:{
-                    'authorization':`Bearer ${localStorage.getItem('accessToken')}`
+            fetch(`http://localhost:5000/booking?customerEmail=${user.email}`, {
+                method: 'GET',
+                headers: {
+                    'authorization': `Bearer ${localStorage.getItem('accessToken')}`
                 }
             })
-                .then(res => res.json())
-                .then(data => setOrders(data));
+                .then(res => {
+                    console.log('res',res);
+                    if(res.status === 401 || res.status === 403){
+
+                    }
+               
+                    return res.json()})
+                .then(data => {
+                    setOrders(data)
+                });
 
         }
     }, [user])
+
+
+
+    // const getBooking = () => {
+    //     let config = {
+    //         headers: {
+    //             authorization: `Bearer ${localStorage.getItem("accessToken")}`
+    //         }
+    //     }
+    //     axios.get(`http://localhost:5000/booking?customerEmail=${user?.email}`, config).then(data => setOrders(data))
+    // }
+
+    // useEffect(() => {
+    //     if (user) {
+    //         getBooking()
+    //     }
+    // }, [])
 
     return (
         <div className='bg-white'>
@@ -36,10 +64,13 @@ const MyOrder = () => {
                             <th className='font-bold text-sm '>Phone Number</th>
 
                         </tr>
+
                     </thead>
                     <tbody>
                         {
+                            // orders?.data?.map((o, index) => <tr key={index}></tr>
                             orders.map((o, index) => <tr>
+                           
                                 <th className='font-bold'>{index + 1}</th>
                                 <td>{o.product}</td>
                                 <td>{o.customerName}</td>
