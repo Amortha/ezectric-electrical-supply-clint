@@ -1,13 +1,14 @@
 // import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
+import { useNavigate } from 'react-router';
 import auth from '../../firebase.init';
-
+import { signOut } from 'firebase/auth';
 const MyOrder = () => {
     const [orders, setOrders] = useState([]);
 
     const [user] = useAuthState(auth);
-
+    const navigate = useNavigate()
 
 
     useEffect(() => {
@@ -19,12 +20,15 @@ const MyOrder = () => {
                 }
             })
                 .then(res => {
-                    console.log('res',res);
-                    if(res.status === 401 || res.status === 403){
-
+                    console.log('res', res);
+                    if (res.status === 401 || res.status === 403) {
+                        signOut(auth);
+                        localStorage.removeItem('accessToken');
+                        navigate('/')
                     }
-               
-                    return res.json()})
+
+                    return res.json()
+                })
                 .then(data => {
                     setOrders(data)
                 });
@@ -70,7 +74,7 @@ const MyOrder = () => {
                         {
                             // orders?.data?.map((o, index) => <tr key={index}></tr>
                             orders.map((o, index) => <tr>
-                           
+
                                 <th className='font-bold'>{index + 1}</th>
                                 <td>{o.product}</td>
                                 <td>{o.customerName}</td>
