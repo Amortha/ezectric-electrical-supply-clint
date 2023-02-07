@@ -4,7 +4,7 @@ import auth from '../../firebase.init';
 import { toast } from 'react-toastify';
 
 const BookingModal = ({ orders, setOrders }) => {
-    const { _id, name } = orders[0]
+    const { _id, name,price } = orders[0]
     const [user, loading, error] = useAuthState(auth)
 
     const handleBooking = event => {
@@ -12,6 +12,7 @@ const BookingModal = ({ orders, setOrders }) => {
         const booking = {
             orderId: _id,
             product:name,
+            price,
             customerName: user.displayName,
             customerEmail: user.email,
             quantity: event.target.quantity.value,

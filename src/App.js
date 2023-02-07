@@ -21,10 +21,12 @@ import MyReview from './Components/Dashboard/MyReview';
 import Users from './Components/Dashboard/Users';
 import AddProduct from './Components/Dashboard/AddProduct';
 import ManageProduct from './Components/Dashboard/ManageProduct';
+import Payment from './Components/Dashboard/Payment';
 
 function App() {
   return (
     <div className="bg-white" >
+        
       <Topbar></Topbar>
       <Nevbar></Nevbar>
       <Routes>
@@ -41,6 +43,7 @@ function App() {
           </RequireAuth>}>
           <Route index element={<MyOrder></MyOrder>} />
           <Route path='review' element={<MyReview></MyReview>} />
+          <Route path='payment/:id' element={<Payment></Payment>} />
           <Route path='users' element={<Users></Users>} />
           <Route path='addproduct' element={<AddProduct></AddProduct>} />
           <Route path=' manageproduct' element={<ManageProduct></ManageProduct>} />
