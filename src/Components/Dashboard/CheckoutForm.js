@@ -8,8 +8,11 @@ const CheckoutForm = ({ order }) => {
     const stripe = useStripe();
     const elements = useElements();
     const [cardError, setCardError] = useState('')
+    const [success, setSuccess] = useState('')
+    const [transactionId, setTransactionId] = useState('');
     const [clientSecret, setClientSecret] = useState('');
-    const { price } = order;
+    const { price, customerEmail, customerName } = order;
+   
     useEffect(() => {
         fetch('http://localhost:5000/cerate-payment-intent', {
             method: 'POST',
@@ -34,7 +37,7 @@ const CheckoutForm = ({ order }) => {
 
         }
         const card = elements.getElement(CardElement);
-        if (card == null) {
+        if (card === null) {
             return;
         }
 
@@ -45,12 +48,37 @@ const CheckoutForm = ({ order }) => {
 
 
         setCardError(error?.message || '')
+        setSuccess('');
         //  if(error){
         //   setCardError(error.message)
         //  }
         //  else{
         //     setCardError('');
         //  }
+
+        //confirm card payment
+        const { paymentIntent, error: intentError } = await stripe.confirmCardPayment(
+            clientSecret,
+            {
+                payment_method: {
+                    card: card,
+                    billing_details: {
+                        name: customerName,
+                        email: customerEmail
+                    },
+                },
+            },
+        );
+        if (intentError) {
+            setCardError(intentError?.message)
+           
+        }
+        else {
+            setCardError('');
+            setTransactionId(paymentIntent.id)
+            console.log(paymentIntent)
+            setSuccess('Congrats! Your payment is completed.We will send the product very soon. Thank you');
+        }
     }
     return (
         <>
@@ -78,6 +106,12 @@ const CheckoutForm = ({ order }) => {
 
             {
                 cardError && <p className='text-red-500'>{cardError}</p>
+            }
+            {
+               success && <div className='text-green-900 font-bold'>
+                <p>{success}</p>
+                <p>your transactionId : <span className='text-orange-500 font-bold'>{transactionId}</span></p>
+               </div>
             }
         </>
     );
