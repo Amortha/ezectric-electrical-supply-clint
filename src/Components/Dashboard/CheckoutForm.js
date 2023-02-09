@@ -9,10 +9,13 @@ const CheckoutForm = ({ order }) => {
     const elements = useElements();
     const [cardError, setCardError] = useState('')
     const [success, setSuccess] = useState('')
+    const [processing, setProcessing] = useState(false)
     const [transactionId, setTransactionId] = useState('');
     const [clientSecret, setClientSecret] = useState('');
-    const { price, customerEmail, customerName } = order;
-   
+
+
+    const { _id, price, customerEmail, customerName } = order;
+
     useEffect(() => {
         fetch('http://localhost:5000/cerate-payment-intent', {
             method: 'POST',
@@ -20,7 +23,7 @@ const CheckoutForm = ({ order }) => {
                 'content-type': 'application/json',
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`
             },
-            body: JSON.stringify({price})
+            body: JSON.stringify({ price })
         })
             .then(res => res.json())
             .then(data => {
@@ -49,6 +52,7 @@ const CheckoutForm = ({ order }) => {
 
         setCardError(error?.message || '')
         setSuccess('');
+        setProcessing(true);
         //  if(error){
         //   setCardError(error.message)
         //  }
@@ -71,13 +75,33 @@ const CheckoutForm = ({ order }) => {
         );
         if (intentError) {
             setCardError(intentError?.message)
-           
+            setProcessing(false);
         }
         else {
             setCardError('');
             setTransactionId(paymentIntent.id)
             console.log(paymentIntent)
             setSuccess('Congrats! Your payment is completed.We will send the product very soon. Thank you');
+
+            //store payment database
+            const payment = {
+                order:_id,
+                transactionId:paymentIntent.id
+            }
+
+                fetch(`http://localhost:5000/booking/${_id}`, {
+                    method: 'PATCH',
+                    headers: {
+                        'content-type': 'application/json',
+                        'authorization': `Bearer ${localStorage.getItem('accessToken')}`
+                    },
+                    body: JSON.stringify(payment)
+
+                }).then(res => res.json())
+                    .then(data => {
+                        setProcessing(false);
+                        console.log(data);
+                    })
         }
     }
     return (
@@ -108,10 +132,10 @@ const CheckoutForm = ({ order }) => {
                 cardError && <p className='text-red-500'>{cardError}</p>
             }
             {
-               success && <div className='text-green-900 font-bold'>
-                <p>{success}</p>
-                <p>your transactionId : <span className='text-orange-500 font-bold'>{transactionId}</span></p>
-               </div>
+                success && <div className='text-green-900 font-bold'>
+                    <p>{success}</p>
+                    <p>your transactionId : <span className='text-orange-500 font-bold'>{transactionId}</span></p>
+                </div>
             }
         </>
     );
