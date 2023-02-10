@@ -10,8 +10,8 @@ const OurStore = () => {
                         data-aos-duration="3000"
                         className='text-center '>
                         <h1 className='font-semibold text-2xl text-amber-300 pt-24'>Our Store</h1>
-                        <h1 className='text-4xl text-white font-bold  my-5'>Get 50% Discount by Becoming a Member</h1>
-                        <p className=' text-semibold text-white text-xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br />
+                        <h1 className='text-2xl lg:text-4xl  text-white font-bold  my-5'>Get 50% Discount by Becoming a Member</h1>
+                        <p className=' text-semibold text-white lg:text-xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean <br />
                             commodo ligula.
 
                         </p>

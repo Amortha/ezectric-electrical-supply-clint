@@ -15,7 +15,7 @@ const BestTem = ({besttem}) => {
            ease-in-out duration-500 uppercase text-sm absolute  ${hover ? "bottom-0" : "opacity-0 -bottom-28"
                             }`} >
                    
-                        <h1 className='font-bold text-2xl text-blue-700 mt-96 '>{name}</h1>
+                        <h1 className='font-bold text-xl text-blue-700 mt-96 '>{name}</h1>
                         <h1 className="mt-3 font-semibold  tracking-widest">{location}</h1>
                     </div>
                 </div>

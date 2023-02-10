@@ -5,7 +5,7 @@ const TeamBanar = () => {
     return (
         <div className={`w-full h-80 bg-cover bg-fixed bg-[url('https://i.ibb.co/yWPxxwM/concept-of.jpg')]`}>
             <div className='w-full h-full bg-black/60'>
-                <h1 className='text-4xl font-bold text-white text-center pt-24' >Team</h1>
+                <h1 className='text-3xl font-bold text-white text-center pt-24' >Team</h1>
                 <div className='flex justify-center  text-white text-2xl mt-7' >
 
                     <h1 className='pr-2'>Home</h1>

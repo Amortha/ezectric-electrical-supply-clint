@@ -5,7 +5,7 @@ const Banar = () => {
     return (
         <div className={`w-full bg-fixed h-72 bg-cover bg-[url('https://i.ibb.co/CKD08H6/elecrici.jpg')]`}>
             <div className='bg-black/50 w-full h-full' >
-            <h1 className='text-4xl font-bold text-white text-center pt-24' >About Us</h1>
+            <h1 className='text-2xl lg:text-3xl font-bold text-white text-center pt-24' >About Us</h1>
                         <div className='flex justify-center  text-white text-2xl mt-7' >
                           
                           <h1 className='pr-2'>Home</h1>

@@ -25,8 +25,6 @@ const ManageProduct = () => {
     }
     return (
         <div>
-            <h2>this is manage</h2>
-
             <table className="table w-full">
 
                 <thead >

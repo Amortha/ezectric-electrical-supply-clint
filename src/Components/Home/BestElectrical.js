@@ -14,7 +14,7 @@ const BestElectrical = () => {
                     <div className='lg:mt-12 'data-aos="zoom-in-down"
                         data-aos-duration="3000">
                         <h1 className='text-blue-900 font-semibold text-2xl'>Why Choose Us</h1>
-                        <h1 className='text-black font-bold text-4xl py-5'>We Are Best Electrical <br />Store in Town</h1>
+                        <h1 className='text-black font-bold text-2xl lg:text-4xl py-5'>We Are Best Electrical <br />Store in Town</h1>
                         <p>Lorem ipsum dolor sit amet, consectetuer<br /> adipiscing elit. Aenean commodo ligula.</p>
                     </div>
                     <div className='grid lg:grid-cols-2 gap-2 pb-7 mt-6 '>

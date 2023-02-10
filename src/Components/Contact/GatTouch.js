@@ -11,36 +11,36 @@ const GatTouch = () => {
                 {/* // Got touch information */}
                 <div >
                     <h1 className='text-xl text-blue-800 font-semibold'>Got Any Questions?</h1>
-                    <h1 className='my-2 text-4xl text-black font-bold'>Get In Touch</h1>
+                    <h1 className='my-2 text-2xl lg:text-4xl text-black font-bold'>Get In Touch</h1>
                     <p className='mb-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
 
 
                     <div className='grid grid-cols-2 gap-6 mt-12'>
                         <div className='bg-green-50 rounded-lg grid place-items-center py-8 '>
                             <div className='flex '>
-                                <GoLocation size={35} className="text-blue-700"></GoLocation>
-                                <h1 className=' font-semibold text-2xl  '> Location</h1>
+                                <GoLocation size={30} className="text-blue-700"></GoLocation>
+                                <h1 className=' font-semibold text-xl  '> Location</h1>
                             </div>
                             <p className='my-2 text-slate-600 font-semibold ' >jl. Sunset Road No.99, Kuta</p>
                         </div>
                         <div className='bg-green-50 rounded-lg grid place-items-center  py-8 '>
                             <div className='flex '>
-                                <FiPhoneCall size={35} className="text-blue-700 mx-2"></FiPhoneCall>
-                                <h1 className=' font-semibold text-2xl  '> Phone</h1>
+                                <FiPhoneCall size={30} className="text-blue-700 mx-2"></FiPhoneCall>
+                                <h1 className=' font-semibold text-xl  '> Phone</h1>
                             </div>
                             <p className=' text-slate-600 font-semibold '>+8801829704087</p>
                         </div>
                         <div className='bg-green-50 rounded-lg grid place-items-center  py-8 '>
                             <div className='flex '>
-                                <AiOutlineMail size={35} className="text-blue-700"></AiOutlineMail>
-                                <h1 className='font-semibold text-2xl mx-2 '>Email</h1>
+                                <AiOutlineMail size={30} className="text-blue-700"></AiOutlineMail>
+                                <h1 className='font-semibold text-xl mx-2 '>Email</h1>
                             </div>
                             <p className='my-2 text-slate-600 font-semibold ' >amitsharma1998k@gmail,com</p>
                         </div>
                         <div className='bg-green-50 rounded-lg grid place-items-center  py-8 '>
                             <div className='flex '>
                                 <AiOutlineFieldTime size={35} className="text-blue-700 mx-2"></AiOutlineFieldTime>
-                                <h1 className='font-semibold text-2xl  '>Opening</h1>
+                                <h1 className='font-semibold text-xl  '>Opening</h1>
                             </div>
                             <p className='my-2 text-slate-600 font-semibold '>Mon- Sat 8:00 AM - 9:00 PM</p>
                         </div>

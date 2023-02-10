@@ -7,7 +7,7 @@ const Counter = ({ counter }) => {
         <div className="card w-96  text-black">
             <div className="card-body items-center text-center">
                 <h1 className='text-amber-400 mb-4'>{icon}</h1>
-                <h2 className="card-title text-5xl text-white font-semibold">{count}+</h2>
+                <h2 className="card-title text-4xl text-white font-semibold">{count}+</h2>
                 <p className='text-xl text-slate-400  font-semibold'>{name}</p>
 
             </div>

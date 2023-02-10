@@ -18,7 +18,7 @@ const ElectricalStore = () => {
             </div>
             <div className=' h-auto lg:mt-24'>
                 <h1 className='text-blue-600 font-semibold text-2xl'>About Us </h1>
-                <h1 className='text-black font-bold text-4xl py-4'>We Are Best Electrical Store in Town Since 2010</h1>
+                <h1 className='text-black font-bold text-3xl py-4'>We Are Best Electrical Store in Town Since 2010</h1>
                 <h1 className=' text-slate-600 text-xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</h1>
                 <div className='grid lg:grid-cols-2  text-slate-600 text-lg mt-12'>
                     <div>

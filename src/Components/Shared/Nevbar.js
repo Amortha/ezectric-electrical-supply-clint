@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../assets/logo.png';
+// import Logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
@@ -44,7 +44,8 @@ const Nevbar = () => {
             <div className="navbar bg-blue-900 lg:px-12  ">
                 <div className="navbar-start">
                     <div>
-                        <a className="btn btn-ghost normal-case text-xl hidden  lg:flex"><img src={Logo} alt="pic" className='w-56  bg-slate-50' /></a>
+                        {/* <a className="btn btn-ghost normal-case text-xl hidden  lg:flex"><img src={Logo} alt="pic" className='w-56  bg-slate-50' /></a> */}
+                        <Link to ="/" className="btn btn-ghost normal-case text-xl hidden  lg:flex"><h2 className='text-white  text-2xl '>EZECTRIC ELECTEICAL STORE</h2></Link>
                     </div>
 
                     <div className="dropdown ">

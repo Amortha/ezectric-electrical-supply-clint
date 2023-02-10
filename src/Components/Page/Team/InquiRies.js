@@ -39,8 +39,8 @@ const InquiRies = () => {
     return (
         <div className='my-12 '>
             <div className='text-center'>
-                <h1 className='text-2xl text-blue-700 font-semibold'>FAQ</h1>
-                <h1 className='text-4xl text-black font-bold my-2'>Customer Inquiries</h1>
+                <h1 className='text-xl text-blue-700 font-semibold'>FAQ</h1>
+                <h1 className='text-2xl lg:text-3xl text-black font-bold my-2'>Customer Inquiries</h1>
                 <h1 className='font-semibold text-slate-500'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br /> Aenean commodo ligula.</h1>
             </div>
 

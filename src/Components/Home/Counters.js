@@ -35,8 +35,8 @@ const Counters = () => {
         <div className='mt-24' data-aos="fade-up"
         data-aos-duration="3000">
             <div >
-                <h1 className='font-bold text-center text-2xl text-blue-900'>About Us</h1>
-                <h1 className='font-bold text-center text-5xl text-black'>5000+ Buyers Across The World</h1>
+                <h1 className='font-bold text-center text-lg lg:text-2xl text-blue-900'>About Us</h1>
+                <h1 className='font-bold text-center text-2xl px-2 lg:text-4xl text-black'>5000+ Buyers Across The World</h1>
             </div>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-3 lg:px-12 m-auto py-8' >
 

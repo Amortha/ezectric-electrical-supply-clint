@@ -11,7 +11,7 @@ const Sales = ({ sale }) => {
                 </div>
                 <div className='py-12 pr-1 w-full'>
                     <h1 className='text-white text-xl font-semibold'>{sale.name}</h1>
-                    <h1 className='text-white text-3xl font-bold'>{sale.descraption}</h1>
+                    <h1 className='text-white lg:text-2xl font-bold'>{sale.descraption}</h1>
                     <button className="  py-4 text-amber-500 font-bold ">SHOP Now </button>
                 </div>
             </div>

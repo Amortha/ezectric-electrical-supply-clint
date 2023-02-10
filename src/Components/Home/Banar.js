@@ -18,9 +18,9 @@ const Banar = () => {
                     data-aos-offset="500"
                     data-aos-duration="2000">
                     <div className="card-body ">
-                        <h2 className="card-title text-5xl font-bold">
+                        <h2 className="card-title text-2xl lg:text-4xl font-bold">
                             The Most Complete Electrical Shop</h2>
-                        <p className=' py-6 text-2xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        <p className=' py-6 lg:text-xl'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                             Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
                         <div className="card-actions justify-start">
                             <button className="px-4 py-4 bg-blue-900 font-bold hover:bg-white hover:text-blue-900">SHOP NOW</button>

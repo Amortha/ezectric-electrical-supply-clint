@@ -28,7 +28,7 @@ const Shops = () => {
 
                     <div className='pt-16 text-center'>
                         {/* <h1 className='text-white text-2xl mt-24 mb-5 font-bold'></h1> */}
-                        <h1 className='text-4xl font-bold text-white' >Shop</h1>
+                        <h1 className='text-3xl font-bold text-white' >Shop</h1>
                         <div className='flex justify-center  text-white text-2xl mt-7' >
                           
                           <h1 className='pr-2'>Home</h1>
@@ -41,8 +41,8 @@ const Shops = () => {
             </div>
             <div data-aos="fade-down"
         data-aos-duration="3000">
-                <h1 className='text-blue-900 text-2xl text-center mt-8 font-semibold'>Our product</h1>
-                <h1 className='text-black text-4xl font-semibold text-center py-4'>Best Seller products <br /> <progress class="progress w-56 "></progress></h1>
+                <h1 className='text-blue-900 text-xl lg:text-2xl text-center mt-8 font-semibold'>Our product</h1>
+                <h1 className='text-black text-2xl lg:text-3xl font-semibold text-center py-4'>Best Seller products <br /> <progress class="progress w-56 "></progress></h1>
 
             </div>
             <div className='grid lg:grid-cols-4 gap-4 p-11 md:grid-cols-2 sm:grid-cols-1 '>

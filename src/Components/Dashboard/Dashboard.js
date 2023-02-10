@@ -11,7 +11,7 @@ const Dashboard = () => {
         <div className="drawer drawer-mobile">
             <input id="dashboard-sidebar" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content ">
-                <h2 className='text-2xl lg:text-4xl text-blue-900 font-semibold text-center my-5'>Welcome to your Dashboard</h2>
+                <h2 className='text-xl lg:text-3xl text-blue-900 font-semibold text-center my-5'>Welcome to your Dashboard</h2>
                 <Outlet></Outlet>
 
 

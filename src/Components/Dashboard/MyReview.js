@@ -30,7 +30,7 @@ const MyReview = () => {
         <div className=''>
 
             <div className=' w-4/5 m-auto h-80   '>
-                <h2 className=' font-semibold text-3xl mb-5 '>Product Add </h2>
+                <h2 className=' font-semibold text-2xl mb-5 '>Add Reviews </h2>
                 <form className='py-2 bg-slate-200' onSubmit={handleSubmit(onSubmit)}>
                     <div className='grid lg:grid-cols-2 gap-6 p-8'>
                         <label>
