@@ -1,44 +1,44 @@
 [
     {
-        "_id": 1,
         "name": "Chondrika das",
+        "address":"Feni,Chittagong",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/306973333_106141572251692_4730452287221858639_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEuanTU9LVbQlVxtnr2IDPN3UHCZ71IxIvdQcJnvUjEi4WrNcKg_hkzpKpZOmfsitmoem9V9uuxdjfVZvJ58Ibx&_nc_ohc=JZn7WB1qajYAX8EU9S5&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfBDEYEjedEhb0_8cGFLIZ9Lvf6lIYpjMi-UMjq2ATdcHQ&oe=63B3236A",
+        "img": "https://i.ibb.co/Svm8MNz/chonrika.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-        "_id": 2,
         "name": "Mohammd shafi",
+        "address":"Chittagong,Bangladesh",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/281348364_1506383519757703_2408705103717132914_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFJH9M7Urs-D5EvzmX0rJB6U5EsoD-XbNVTkSygP5ds1czCbwwi-kl02Qnk3bABWeE9I6CO2xioZ6ZBbRabYXz3&_nc_ohc=4Vci01ORzWkAX-Ci-e7&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfC6JDX6xjkBT7mD8jwsOZKrZ1Lu8D0w89140NO-Zi2uwQ&oe=63B32EC7",
+        "img": "https://i.ibb.co/NTYgwB7/nayan.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-        "_id": 3,
         "name": "Tasmia islam",
+        "address":"Dhaka,Bangladesh",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/321907492_3401325503520393_2511778028485626661_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEtmRLXlQKqEb4zj9TGygpffvUBXr4Avrp-9QFevgC-uoaT5LrYXEd_hWCuYALHvh8XiN34f8IxQdw__8kxQQtL&_nc_ohc=KslcT2tcnU0AX9njB91&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfA23BZO4HFuLejVevXekYRD5AplA_ZjWLO4inttukRGdQ&oe=63B3389A",
+        "img": "https://i.ibb.co/hYpm1gN/shila.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-        "_id": 4,
         "name": "Noyan Bonik",
+        "address":"ManikChari,khagrachari",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/256924272_1307574312989715_3553335666052656055_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeG_5_EYnpvQaNZT22DDdplIcqCtAaieLI1yoK0BqJ4sjeutrzqX23GYvki4DIMCJsgJYuoH-3VS5XOdFRnJOipd&_nc_ohc=J9FqkP3T5McAX86lV54&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfCzZuv-ErCaHiZCCwVnCrPYeEPhY4OsodtpzUaHpFVbUQ&oe=63B4DE13",
+        "img": "https://i.ibb.co/3pY8Qsn/safi.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-        "_id": 5,
         "name": "Rashal",
+        "address":"New Yourk,USA",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/243108317_1249895958858795_7713305381357244743_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGIyVo4CBEFksQbp2Te2bzd0HJzXfzc6pvQcnNd_Nzqm7PZfYjWsL7Uqt-LHGx1FgtcoLl-Yhhk02q7SFILD6y-&_nc_ohc=GUv2srk1S1sAX_oyRsB&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfADdjiD00ySNC2mkXtBiat8MnqXvtzwGLBkIts1EIhbow&oe=63B3E7A4",
+        "img": "https://i.ibb.co/YXmYNpK/rashal.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
-        "_id": 6,
         "name": "Shila paul",
+        "address":"Chittagong,Bangladesh",
         "post": "Customer",
-        "img": "https://scontent.fcla5-1.fna.fbcdn.net/v/t39.30808-6/314001488_864668244895841_3199864202988275665_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGl2x9WGCWzf4PJEcDRZ4_PET4QGlEdGwARPhAaUR0bAOelB-xbyHM3T77E-5SX7Ryl-t3m9ui90mLpgmvbpbpa&_nc_ohc=dj5_pSVAR_UAX98RaOc&_nc_zt=23&_nc_ht=scontent.fcla5-1.fna&oh=00_AfB8WbTmhTWH-nBwp9q6JtDr07JLRQ4ZFhZ5ejusdyQ6LQ&oe=63B4A9A8",
+        "img": "https://i.ibb.co/sbDsCvS/tasmia.jpg",
         "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
 ]

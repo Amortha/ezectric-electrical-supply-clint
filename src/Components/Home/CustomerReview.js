@@ -1,7 +1,7 @@
 import React from 'react';
 
 const CustomerReview = (props) => {
-  const { img, name, text, post } = props.customerreview
+  const { img, name,address, text, post } = props.customerreview
   return (
     <div className='bg-zinc-100 rounded-lg p-10 h-80 mt-8'>
       <div className="rating">
@@ -24,7 +24,8 @@ const CustomerReview = (props) => {
 
         </div>
         <div className='px-2'>
-          <h1 className='text-xl font-semibold'>{name}</h1>
+          <h1 className='text-xl font-bold'>{name}</h1>
+          <h1 className='font-semibold'>{address}</h1>
           <p>{post}</p>
         </div>
       </div>

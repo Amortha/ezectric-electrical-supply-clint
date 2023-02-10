@@ -16,7 +16,7 @@ import { Pagination } from "swiper";
 const CustomerReviews = () => {
     const [customerReviews, setCustomerReviews] = useState([]);
     useEffect(() => {
-        fetch('./CustomerReviews.json')
+        fetch('http://localhost:5000/reviews')
             .then(res => res.json())
             .then(data => setCustomerReviews(data))
     }, [])
