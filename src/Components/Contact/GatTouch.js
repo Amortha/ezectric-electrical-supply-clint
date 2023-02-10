@@ -60,7 +60,7 @@ const GatTouch = () => {
                             <input type="text" placeholder="Subject" className="input input-bordered  w-full " />
                             <h1>Comments / Questions</h1>
                             <textarea className="textarea input-bordered w-full " placeholder="Your Massage"></textarea>
-                       <button className='bg-blue-800 mt-2  w-28 text-white py-3 text-lg font-bold'>shop naw</button>
+                       <button className='bg-blue-800 mt-2  w-28 text-white py-3 text-lg font-bold'>Submit</button>
                         </div>
                        
                     </div>
