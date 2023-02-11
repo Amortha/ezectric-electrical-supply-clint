@@ -5,7 +5,7 @@ import { toast } from 'react-toastify';
 const MyReview = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        const url =`http://localhost:5000/reviews`;
+        const url =`https://ezectric-electrical-supply.onrender.com/reviews`;
         fetch(url,{
             method:'POST',
             headers:{

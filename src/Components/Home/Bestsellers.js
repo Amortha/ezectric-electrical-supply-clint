@@ -6,7 +6,7 @@ const Bestsellers = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/shops')
+        fetch('https://ezectric-electrical-supply.onrender.com/shops')
             .then(res => res.json())
             .then(data => setBestsellers(data))
     }, [])

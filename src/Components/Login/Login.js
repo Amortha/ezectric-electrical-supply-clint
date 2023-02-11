@@ -115,6 +115,10 @@ useEffect(()=>{
             onClick={() => signInWithGoogle()}
             className='w-full btn btn-outline hover:bg-gradient-to-r from-[#022079] to-[#00bfff]'
           ><FcGoogle className='mx-2' size={20}></FcGoogle> Continue with Google</button>
+
+
+          <p className='font-bold text-xl '>Admin:- ll@gmail.com</p>
+          <p className='font-bold text-xl '>Password:- 123456</p>
         </div>
       </div>
     </div>

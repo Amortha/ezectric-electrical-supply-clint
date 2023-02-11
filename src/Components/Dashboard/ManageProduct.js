@@ -4,7 +4,7 @@ const ManageProduct = () => {
     const [shops, setShops] = useState([]);
     useEffect(() => {
 
-        fetch('http://localhost:5000/shops')
+        fetch('https://ezectric-electrical-supply.onrender.com/shops')
             .then(res => res.json())
             .then(data => setShops(data))
     }, []);
@@ -12,7 +12,7 @@ const ManageProduct = () => {
     const handleDelete = id => {
         const proceed = window.confirm('Are you Sure?');
         if (proceed) {
-            const url = `http://localhost:5000/shops/${id}`;
+            const url = `https://ezectric-electrical-supply.onrender.com/shops/${id}`;
             fetch(url, {
                 method: 'DELETE'
             })

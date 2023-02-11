@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 const AddProduct = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
-        const url =`http://localhost:5000/shops`;
+        const url =`https://ezectric-electrical-supply.onrender.com/shops`;
         fetch(url,{
             method:'POST',
             headers:{

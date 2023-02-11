@@ -14,7 +14,7 @@ const MyOrder = () => {
 
     useEffect(() => {
         if (user) {
-            fetch(`http://localhost:5000/booking?customerEmail=${user.email}`, {
+            fetch(`https://ezectric-electrical-supply.onrender.com/booking?customerEmail=${user.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -45,7 +45,7 @@ const MyOrder = () => {
     //             authorization: `Bearer ${localStorage.getItem("accessToken")}`
     //         }
     //     }
-    //     axios.get(`http://localhost:5000/booking?customerEmail=${user?.email}`, config).then(data => setOrders(data))
+    //     axios.get(`https://ezectric-electrical-supply.onrender.com/booking?customerEmail=${user?.email}`, config).then(data => setOrders(data))
     // }
 
     // useEffect(() => {

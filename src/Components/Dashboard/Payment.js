@@ -11,7 +11,7 @@ const stripePromise = loadStripe('pk_test_51MDsIyAYUl9xJn4VeQqRi2Rc4k0ypgszcItcQ
 
 const Payment = () => {
     const { id } = useParams();
-    const url = `http://localhost:5000/booking/${id}`;
+    const url = `https://ezectric-electrical-supply.onrender.com/booking/${id}`;
     const { data: order, isLoading } = useQuery(['booking', id], () => fetch(url, {
 
         method: 'GET',

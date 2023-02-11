@@ -17,7 +17,7 @@ const CheckoutForm = ({ order }) => {
     const { _id, price, customerEmail, customerName } = order;
 
     useEffect(() => {
-        fetch('http://localhost:5000/cerate-payment-intent', {
+        fetch('https://ezectric-electrical-supply.onrender.com/cerate-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
@@ -89,7 +89,7 @@ const CheckoutForm = ({ order }) => {
                 transactionId:paymentIntent.id
             }
 
-                fetch(`http://localhost:5000/booking/${_id}`, {
+                fetch(`https://ezectric-electrical-supply.onrender.com/booking/${_id}`, {
                     method: 'PATCH',
                     headers: {
                         'content-type': 'application/json',

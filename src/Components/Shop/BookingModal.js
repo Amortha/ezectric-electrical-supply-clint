@@ -21,7 +21,7 @@ const BookingModal = ({ orders, setOrders }) => {
 
         }
        
-        fetch('http://localhost:5000/booking', {
+        fetch('https://ezectric-electrical-supply.onrender.com/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

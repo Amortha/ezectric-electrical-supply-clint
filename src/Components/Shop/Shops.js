@@ -17,7 +17,7 @@ const Shops = () => {
     }
     useEffect(() => {
 
-        fetch('http://localhost:5000/shops')
+        fetch('https://ezectric-electrical-supply.onrender.com/shops')
             .then(res => res.json())
             .then(data => setShops(data))
     }, [])
@@ -30,17 +30,17 @@ const Shops = () => {
                         {/* <h1 className='text-white text-2xl mt-24 mb-5 font-bold'></h1> */}
                         <h1 className='text-3xl font-bold text-white' >Shop</h1>
                         <div className='flex justify-center  text-white text-2xl mt-7' >
-                          
-                          <h1 className='pr-2'>Home</h1>
-                          <FaChevronRight className='w-5 h-5 mt-2 text-amber-500'></FaChevronRight>
-                          <h1 className='pl-2 mb-6'>shop</h1>
+
+                            <h1 className='pr-2'>Home</h1>
+                            <FaChevronRight className='w-5 h-5 mt-2 text-amber-500'></FaChevronRight>
+                            <h1 className='pl-2 mb-6'>shop</h1>
                         </div>
                         <input type="text" placeholder="Find Your Product" className="input input-bordered  w-full max-w-xs" value={query} onChange={searchText} />
                     </div>
                 </div>
             </div>
             <div data-aos="fade-down"
-        data-aos-duration="3000">
+                data-aos-duration="3000">
                 <h1 className='text-blue-900 text-xl lg:text-2xl text-center mt-8 font-semibold'>Our product</h1>
                 <h1 className='text-black text-2xl lg:text-3xl font-semibold text-center py-4'>Best Seller products <br /> <progress class="progress w-56 "></progress></h1>
 
