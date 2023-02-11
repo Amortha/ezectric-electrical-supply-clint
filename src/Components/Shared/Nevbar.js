@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 // import Logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
@@ -6,7 +6,7 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
 import { signOut } from 'firebase/auth';
 
-const Nevbar = () => {
+const Nevbar = ({ handleThemeChange, theme }) => {
     const [user] = useAuthState(auth);
     const logout = () => {
         signOut(auth);
@@ -35,7 +35,30 @@ const Nevbar = () => {
             user && <li><Link to="/dashboard">DASHBOARD</Link></li>
         }
         <li>{user ? <button className="btn btn-ghost" onClick={logout}>Sign Out</button> : <Link to="login">LOGIN</Link>}</li>
-    </>
+  
+
+        <li><button
+            onClick={handleThemeChange}
+            className="rounded-full lg:mx-2 font-bold pr-2">
+
+            {theme ? <i class="fa-solid fa-sun"></i> : <i class="fa-solid fa-moon"></i>}
+        </button></li>
+   </>
+
+const [nav, setNav] = useState(false);
+
+
+const changeBackground = () => {
+    if (window.scrollY >= 200) {
+        setNav(true);
+    } else {
+        setNav(false);
+    }
+};
+useEffect(() => {
+    changeBackground();
+    window.addEventListener("scroll", changeBackground);
+});
 
     return (
         <div className='sticky top-0 z-50'>

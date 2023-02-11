@@ -22,13 +22,25 @@ import Users from './Components/Dashboard/Users';
 import AddProduct from './Components/Dashboard/AddProduct';
 import ManageProduct from './Components/Dashboard/ManageProduct';
 import Payment from './Components/Dashboard/Payment';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [theme, setTheme] = useState(false);
+
+
+  useEffect(() => {
+    setTheme(JSON.parse(window.localStorage.getItem("theme")));
+  }, []);
+
+  const handleThemeChange = () => {
+    setTheme(!theme);
+    window.localStorage.setItem("theme", !theme);
+  };
   return (
-    <div className="bg-white" >
+    <div data-theme={theme && "my_dark"} className="bg-white" >
         
       <Topbar></Topbar>
-      <Nevbar></Nevbar>
+      <Nevbar handleThemeChange={handleThemeChange} theme={theme}></Nevbar>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='aboutus' element={<AboutUs />} />
